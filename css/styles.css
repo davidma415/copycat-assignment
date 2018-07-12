@@ -122,6 +122,10 @@ footer p {
     font-size: 1.2em;
   }
 
+  .container {
+    margin: 0 auto;
+  }
+
   header {
     overflow: hidden;
   }
@@ -145,5 +149,40 @@ footer p {
   li.nav-option {
     display: inline-block;
     margin: 0 5px;
+  }
+
+  .welcome {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: #26547C;
+    color: white;
+  }
+
+  .welcome-msg > h1 {
+    border-bottom: none;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.5em;
+  }
+
+  .products-contain {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    grid-gap: 15px 15px;
+  }
+
+  .product-cat {
+    border: 3px solid black;
+  }
+
+  .products > ul {
+    padding-right: 20px;
+  }
+
+  li.product-cat > img {
+    margin: 0;
+    padding: 0 0;
   }
 }
